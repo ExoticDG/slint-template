@@ -74,7 +74,7 @@ cargo install cargo-apk
 
 * Run the application binary
 
-    * Start Android Studio. Go to 'Virtual Device Manager'.  Select a device to emulate and start the device (play button).
+    * Start Android Studio (`studio.sh`). Go to 'Virtual Device Manager'.  Select a device to emulate and start the device (play button).
 
      ```
      cargo apk run --target aarch64-linux-android --lib
